@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans  
+    xmlns="http://www.springframework.org/schema/beans"  
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
+    xmlns:p="http://www.springframework.org/schema/p"  
+    xsi:schemaLocation="http://www.springframework.org/schema/beans  
+               http://www.springframework.org/schema/beans/spring-beans-3.0.xsd"> 
+               
+<!-- the given property tags is simply we called as setter injection --> 
+<bean id="studentBean" class="com.test.Student">
+<property name="stdid" value="1001"></property>
+<property name="stdname" value="ajayreddy"></property>
+<property name="stdaddress" value="hyderabad"></property>
+</bean>
+
+<bean id="studentBean1" class="com.test.StudentDetails">
+  <constructor-arg name="stdid" value="351"></constructor-arg>
+  <constructor-arg name="stdaddress" value="vijayawada"></constructor-arg>
+  <constructor-arg name="stdname" value="Syamkumar"></constructor-arg>
+  
+
+</bean>
+
+
+</beans>

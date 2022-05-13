@@ -1,0 +1,7 @@
+class ExceptionDemo {
+	public static void main(Strings[] args) {
+		int data = 100/0;
+		System.out.println(data);
+	}
+
+}

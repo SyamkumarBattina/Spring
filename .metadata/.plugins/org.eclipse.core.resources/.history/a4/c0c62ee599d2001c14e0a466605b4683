@@ -1,0 +1,23 @@
+package com.test;
+
+import org.springframework.context.ApplicationContext;
+
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+    	ApplicationContext context=new ClassPathXmlApplicationContext("web.xml");     
+    	StudentDetails s1=(StudentDetails)context.getBean("studentBean");//setter
+    	StudentDetails s2=(StudentDetails)context.getBean("studentBean");//Constructor
+    	System.out.println(s1);
+    	System.out.println(s2);
+        
+       
+    }
+}

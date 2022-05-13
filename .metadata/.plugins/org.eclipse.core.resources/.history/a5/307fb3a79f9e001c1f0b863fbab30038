@@ -1,0 +1,14 @@
+
+public class Exception {
+
+	public static void main(String[] args) {
+		String a ="ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+			 System.out.print(a.charAt(18));
+			 System.out.print(a.charAt(20));
+			 System.out.print(a.charAt(9));
+			 System.out.print(a.charAt(8));
+		
+
+	}
+
+}

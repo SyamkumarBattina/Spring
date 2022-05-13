@@ -1,0 +1,15 @@
+
+public class Exception {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//int data = 100/0;
+	     //System.out.println(data);
+		
+		System.out.println("hello");
+
+		
+
+	}
+
+}

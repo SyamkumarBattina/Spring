@@ -1,0 +1,10 @@
+
+public class Practice {			
+	public static void main(String[] args) {
+		int arr[]= {2,37,9,78,34};
+		System.out.println(arr.length);
+			
+		
+	}
+
+}
